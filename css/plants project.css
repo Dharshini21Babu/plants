@@ -1,0 +1,1170 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrap{
+	width: 100%;
+	height: 150px;
+	background:rgba(32, 84, 74, 1); 
+/*	position: fixed;*/
+}
+.head{
+	width: 1500px;
+	height: 150px;
+	margin: 0 auto;
+/*	position: fixed;*/
+	top:0;
+}
+.header{
+	width: 1500px;
+	height: 150px;
+	margin: 0 auto;
+	background: rgba(32, 84, 74, 1);
+/*	position: fixed;*/
+/*	top:0;*/
+}
+.nav ul li{
+	list-style: none;
+/*	color: white;*/
+	display: inline-block;
+	float: left;
+}
+h1{
+	float: left;
+	padding: 40px;
+	font-size: 70px;
+}
+.nav li{
+/*	padding: 30px;*/
+	font-size: 30px;
+	margin: 67px 80px 40px 50px;
+	display: inline-block;
+	text-decoration: none;
+	
+}
+/*
+.nav ul li:hover{
+	color: rgba(238, 187, 77, 1);
+}
+*/
+
+.nav a{
+	text-decoration: none;
+	color:white;
+}
+
+.nav a:hover{
+	color:rgba(238, 187, 77, 1);
+}
+.shop{
+	width: 212px;
+	height: 67px;
+	border-radius:30px;
+	border: 4px solid white;
+	float: right;
+	margin-top: 50px;
+	font-size: 20px;
+	background: rgba(238, 187, 77, 1);
+	color: white;
+	
+}
+.shop:hover{
+	color:rgba(238, 187, 77, 1);
+	background-color: white;
+	border-color: rgba(238, 187, 77, 1);
+}
+.plants{
+	width: 100%;
+	height: 755px;
+	background: linear-gradient(to top,#9DC586, #20544A);
+/*	clear:both;*/
+}
+
+.buya{
+	width:2000px;
+	height:900px;
+/*	background-color: azure;*/
+	margin: 0 auto;
+}
+/*
+.buya{
+	width: 1500px;
+	height: 900px;
+	margin: 0 auto;
+	background-color: antiquewhite;
+}
+*/
+.buy{
+	width: 819px;
+	height: 760px;
+
+/*	background-color: green;*/
+	padding: 70px;
+	margin-left: -365px;
+
+	float:left;
+}
+.buy h1{
+	margin-left: 10px;
+	margin-top: 160px;
+	font-size: 80px;
+	color: white;
+}
+.buy p{
+	margin-top: 345px;
+	margin-left: 57px;
+	line-height: 40px;
+
+	font-family: Raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    color: rgb(240, 240, 240);
+	
+}
+.shopa{
+	width: 212px;
+	height: 67px;
+	border-radius:30px;
+	border: 4px solid rgba(238, 187, 77, 1);
+	float: left;
+	margin-top: 30px;
+	margin-left: 57px;
+	font-size: 20px;
+	background: white;
+	color: rgba(238, 187, 77, 1);
+}
+.shopa:hover{
+	color:white;
+	background-color: rgba(238, 187, 77, 1);
+	border-color: white;
+}
+.imgdiv{
+	width: 850px;
+	height: 590px;
+	background-color: white;
+	float: right;
+	margin-top: 165px;
+	border-top-left-radius: 40px;
+	border-top-right-radius: 40px;
+	
+}
+.imga{
+	width: 390px;
+	height: 560px;
+	margin-left: 20px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/f42198c2-image-4_1000000000000000000028.png")no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+}
+.imgb{
+	width: 390px;
+	height: 560px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/dea4d96d-image-31_10aa0fa00000000000001o.jpg")no-repeat;
+	background-size: cover;
+	margin-top: 30px;
+	border-top-right-radius: 25px;
+}
+.imga,.imgb{
+	display: inline-block;
+}
+.home{
+	width: 100%;
+	height: 950px;
+	background-color: white;
+}
+.homea{
+	width: 2000px;
+	height: 800px;
+/*	background-color: yellowgreen;*/
+	margin: 0 auto;
+	margin-top: 150px;
+/*	margin-left: 1000px;*/
+}
+.homeb{
+	width: 536px;
+	height: 703px;
+	background: linear-gradient(to top,#9DC586, #20544A);
+	border-radius: 40px;
+	padding: 30px;
+	float: left;
+	margin-left: 315px;
+/*	margin-top: 80px;*/
+	
+	
+}
+.imgc{
+	width: 528px;
+	height: 700px;
+	background:url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/ad25e940-image-5_1000000000000000000028.png")no-repeat;
+	background-size: cover;
+/*
+	margin-left: 20px;
+	margin-top: 20px;
+*/
+	position: relative;
+}
+.box{
+	width: 321px;
+	height: 200px;
+	background-color:rgba(238, 187, 77, 1);
+	border-radius: 30px;
+	position: absolute;
+	margin-top: 612px;
+	margin-left: 97px;
+	
+}
+.box h2{
+	text-align: center;
+	font-size: 88px;
+	margin-top: 10px;
+	color: #20544A;
+}
+.box p{
+	text-align: center;
+	font-size: 30px;
+	color: #20544A;
+}
+
+.homec{
+	width: 800px;
+	height: 753px;
+	background-color: white;
+	float: right;
+	margin-right: 159px;
+}
+.para h2{
+	font-size:60px;
+/*	font-family: Josefin Sans;*/
+	font-style: normal;
+	margin-top: 40px;
+	margin-bottom: 10px;
+	color: #20544A;
+	
+}
+.para p{
+	line-height: 40px;
+	font-family: Raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+	color: rgb(85, 85, 85);
+}
+.shopb{
+	width: 212px;
+	height: 67px;
+	border-radius:30px;
+	border: 4px solid rgba(238, 187, 77, 1);
+/*	float: left;*/
+	margin-top: 20px;
+	font-size: 20px;
+	background: white;
+	color: rgba(238, 187, 77, 1);
+}
+.shopb:hover{
+	color: white;
+	background-color: rgba(238, 187, 77, 1);
+	border-color: white;
+}
+
+.imgd{
+	width: 100px;
+	height: 125px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/62f2a5e2-icon_101o023000000000000028.png")no-repeat;
+	background-size: cover;
+	margin-top: 45px;
+}
+.paraa h3{
+	font-size:30px;
+	font-style: normal;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #20544A;
+}
+.paraa p{
+	line-height: 30px;
+	font-family: Arial, sans-serif;;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+	color: rgb(85, 85, 85);
+}
+.imge{
+	width: 100px;
+	height: 125px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/62f2a5e2-icon_101o023000000000000028.png")no-repeat;
+	background-size: cover;
+	margin-top: 45px;
+}
+.parab h3{
+	font-size:30px;
+	font-style: normal;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #20544A;
+}
+.parab p{
+	line-height: 30px;
+	font-family: Arial, sans-serif;;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+	color: rgb(85, 85, 85);
+}
+.paraa,.parab{
+	display: inline-block;
+	margin-right: 50px;
+}
+.range{
+	width: 100%;
+	height: 2000px;
+	background: linear-gradient(#D4EFC6, #98C382);
+}
+.rangea{
+	width: 2000px;
+	height:2000px;
+/*	background-color: sandybrown;*/
+	margin: 0 auto;
+}
+.parac h2{
+	font-size:80px;
+	font-style: normal;
+	color: #20544A;
+	text-align: center;
+	padding: 100px 100px 35px 100px;
+}
+.parac p{
+	line-height: 40px;
+	font-family: Raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 26px;
+	color: rgb(85, 85, 85);
+	text-align: center;
+}
+.pic{
+	width: 400px;
+	height: 466px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/4267cea6-image-removebg-preview4-1_1000000000000000000028.png");
+	background-size: cover;
+	margin-left: -9px;
+	margin-right: 200px;
+	top: -301px;
+	position: absolute;
+}
+.pic:hover{
+	 transform: rotateY(200deg);
+}
+.pica{
+	width: 400px;
+	height: 426px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/d9156afa-plants-png-44904-1_1000000000000000000028.png");
+	background-size: cover;
+	margin-right: 240px;
+	margin-left: -21px;
+	position: absolute;
+	top: -278px;
+}
+.pica:hover{
+	 transform: translate(50px, 40px);
+}
+.picb{
+	width: 400px;
+	height: 455px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/e96940ca-image-removebg-preview9-1_1000000000000000000028.png");
+	background-size: cover;
+	margin-right: 20px;
+	margin-left: -27px;
+	top: -295px;
+	position: absolute;
+	
+}
+.picb:hover{
+	 transform: rotateY(150deg);
+}
+.picc{
+	width: 400px;
+	height: 443px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/3e3607c9-image-removebg-preview6-1_1000000000000000000028.png");
+	background-size: cover;
+	margin-left:-3px;
+	margin-right: 200px;
+	top:-325px;
+	position: absolute;
+}
+.picc:hover{
+	transform: translate(50px, 40px);
+}
+.picd{
+	width: 400px;
+	height: 473px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/b3083380-image-removebg-preview7-1_1000000000000000000028.png");
+	background-size: cover;
+	margin-right: 240px;
+	margin-left: -26px;
+	top:-327px;
+	position: absolute;
+}
+.picd:hover{
+	transform: rotateY(150deg);
+}
+.pice{
+	width: 400px;
+	height: 505px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/8bf9879c-image-removebg-preview8-1_1000000000000000000028.png");
+	background-size: cover;
+	margin-left: -40px;
+	margin-right: 200px;
+	top:-310px;
+	position: absolute;
+}
+.pice:hover{
+	transform: translate(50px, 40px);
+}
+.pic,.pica,.picb{
+	display: inline-block;
+	
+}
+.picc,.picd,.pice{
+	display: inline-block;
+/*	margin-top: 340px;*/
+}
+.picture{
+	width: 1800px;
+	height: 800px;
+/*	background-color: white;*/
+	margin: 0 auto;
+}
+.boxa{
+	width: 400px;
+	height: 300px;
+	background-color:#20544A;
+	border-radius: 30px;
+	margin-left: 141px;
+	margin-top: 400px;
+	float: left;
+	position: relative
+}
+.boxb{
+	width: 400px;
+	height: 300px;
+	background-color: rgba(238, 187, 77, 1);
+	border-radius: 30px;
+	margin-top: 400px;
+	margin-left: 200px;
+	float: left;
+	position: relative;
+}
+.boxc{
+	width: 400px;
+	height: 300px;
+	background-color: #20544A;
+	border-radius: 30px;
+	margin-top: 400px;
+	margin-right: 45px;
+	float:right;
+	position: relative;
+}
+.picturea{
+	width: 1800px;
+	height: 650px;
+/*	background-color: darksalmon;*/
+	margin: 0 auto;
+}
+.boxd{
+	width: 400px;
+	height: 300px;
+	background-color:rgba(238, 187, 77, 1);
+	border-radius: 30px;
+	margin-left: 122px;
+	margin-top: 300px;
+	float: left;
+	position: relative;
+}
+.boxe{
+	width: 400px;
+	height: 300px;
+	background-color: #20544A;
+	border-radius: 30px;
+	margin-top: 300px;
+	margin-left: 200px;
+	float: left;
+	position: relative;
+}
+.boxf{
+	width: 400px;
+	height: 300px;
+	background-color:rgba(238, 187, 77, 1);
+	border-radius: 30px;
+	margin-top: 300px;
+	margin-right: 50px;
+	float:right;
+	position: relative;
+}
+.boxa h2{
+	margin-top: 166px;
+	text-align: center;
+	font-size: 28px;
+	color: white;
+}
+.boxa p{
+	margin-top: 18px;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+}
+.boxb h2{
+	margin-top: 166px;
+	text-align: center;
+	font-size: 28px;
+	color: #20544A;	
+}
+.boxb p{
+	margin-top: 18px;
+	text-align: center;
+	font-size: 45px;
+	color: #20544A;
+}
+.boxc h2{
+	margin-top: 166px;
+	text-align: center;
+	font-size: 28px;
+	color: white;
+}
+.boxc p{
+	margin-top: 18px;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+}
+.boxd h2{
+	margin-top: 166px;
+	text-align: center;
+	font-size: 28px;
+	color: #20544A;	
+}
+.boxd p{
+	margin-top: 18px;
+	text-align: center;
+	font-size: 45px;
+	color: #20544A;
+}
+.boxe h2{
+	margin-top: 166px;
+	text-align: center;
+	font-size: 28px;
+	color: white;
+}
+.boxe p{
+	margin-top: 18px;
+	text-align: center;
+	font-size: 45px;
+	color: white;
+}
+.boxf h2{
+	margin-top: 166px;
+	text-align: center;
+	font-size: 28px;
+	color: #20544A;	
+}
+.boxf p{
+	margin-top: 18px;
+	text-align: center;
+	font-size: 45px;
+	color: #20544A;
+}
+.shopc{
+	width: 228px;
+	height: 67px;
+	border-radius:30px;
+	border: 4px solid white;
+	margin-top: 50px;
+	font-size: 20px;
+	background: rgba(238, 187, 77, 1);
+	color: white;
+	margin: 0 auto;
+/*
+	display: flex;
+	align-items: center;
+	justify-content: center;
+*/
+	
+}
+.shopc:hover{
+	color:rgba(238, 187, 77, 1);
+	background-color: white;
+	border-color: rgba(238, 187, 77, 1);
+}
+.view{
+	width: 100%;
+	height: 1000px;
+	background-color: white;
+}
+.viewa{
+	width: 2000px;
+	height: 1000px;
+/*	background-color: aquamarine;*/
+	margin: 0 auto;
+}
+.beauty{
+	width: 1000px;
+	height: 800px;
+/*	background-color: bisque;*/
+	float: left;
+}
+.beauty h2{
+	font-size:67px;
+	font-style: normal;
+	margin-top: 85px;
+	margin-bottom: 35px;
+	color: #20544A;
+}
+.beauty p{
+	line-height: 40px;
+	font-family: Raleway;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 28px;
+	color: rgb(85, 85, 85);
+}
+.shopd{
+	width: 228px;
+	height: 67px;
+	border-radius:30px;
+	border: 4px solid rgba(238, 187, 77, 1);
+/*	float: left;*/
+	margin-top: 50px;
+	font-size: 20px;
+	background: white;
+	color: rgba(238, 187, 77, 1);
+}
+.shopd:hover{
+	color: white;
+	background-color: rgba(238, 187, 77, 1);
+	border-color: white;
+}
+.picf{
+	width: 700px;
+	height: 800px;
+	background: linear-gradient(to top,#9DC586, #20544A); 
+	border-radius: 30px;
+	float: right;
+	margin-top:100px;
+	position: relative;
+}
+.imgf{
+	width: 500px;
+	height: 700px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/361e30e3-image-removebg-preview-1_1000000000000000000028.png");
+	background-size: cover;
+	margin-left: 103px;
+	
+}
+.boxg{
+	width: 357px;
+	height: 216px;
+	background-color:rgba(238, 187, 77, 1);
+	border-radius: 30px;
+	position: absolute;
+	margin-top: -166px;
+	margin-left: -168px;
+/*	float: right;*/
+	
+}
+.boxg h2{
+	text-align: center;
+	font-size: 88px;
+	margin-top: 10px;
+	color: #20544A;
+}
+.boxg p{
+	text-align: center;
+	font-size: 30px;
+	color: #20544A;
+}
+.deliver{
+	width: 100%;
+	height: 1000px;
+	background: linear-gradient(to top,#9DC586, #20544A);
+}
+.delivera{
+	width: 2000px;
+	height: 1000px;
+/*	background-color: bisque;*/
+	margin: 0 auto;
+}
+.shiping .get{
+	font-size: 70px;
+	color: white;
+	text-align: center;
+/*	margin-top: 40px;*/
+	padding: 75px;
+/*	font-family: Raleway;*/
+}
+.qualitya{
+	width: 500px;
+	height: 375px;
+/*	background-color: none;*/
+	border: 5px solid white;
+	float: left;
+	border-radius: 30px;
+	padding: 50px;
+}
+.free{
+	width: 500px;
+	height: 391px;
+	background-color: white;
+	float: left;
+	margin-left: 92px;
+	border-radius: 30px;
+	padding: 50px;
+}
+.warrenty{
+	width: 500px;
+	height: 375px;
+	border: 5px solid white;
+	float: right;
+	border-radius: 30px;
+	padding: 50px;
+}
+.quality{
+	width: 2000px;
+	height: 600px;
+/*	background-color: aquamarine;*/
+	margin-top: 90px;
+/*	display: inline-block;*/
+		
+}
+.imgg{
+	width: 100px;
+	height: 127px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/58cd4b5a-vector_1000000000000000000028.png");
+	background-size: cover;
+	margin: 0 auto;
+	
+}
+.imgh{
+	width: 185px;
+	height: 127px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/9f56f16a-vector2_1000000000000000000028.png");
+	background-size: cover;
+	margin: 0 auto;
+}
+.imgi{
+	width: 146px;
+	height: 129px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/cb48e140-vector3_1000000000000000000028.png");
+	background-size: cover;
+	margin: 0 auto;
+}
+.qualitya .best{
+	font-size: 40px;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+}
+.free .besta{
+	font-size: 40px;
+	margin-top: 20px;
+	color: #20544A;
+	text-align: center;
+}
+.warrenty .best{
+	font-size: 40px;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+}
+.since{
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: center;
+	font-family: Raleway;
+	color: white;
+	line-height: 51px;
+}
+.sincea{
+	font-size: 30px;
+	margin-top: 20px;
+	text-align: center;
+	font-family: Raleway;
+	color: rgb(85, 85, 85);
+	line-height: 51px;
+}
+.house{
+	width: 100%;
+	height: 1101px;
+	background-color: white;
+}
+.housea{
+	width: 2000px;
+	height: 1100px;
+/*	background-color: darkgoldenrod;*/
+	margin: 0 auto;
+}
+.people h2{
+	font-size: 60px;
+	text-align: center;
+	font-family: Raleway;
+	padding: 70px;
+	color: #20544A;
+}
+.people p{
+	text-align: center;
+	font-size: 30px;
+	font-family: raleway;
+	line-height: 50px;
+	color: rgb(85, 85, 85);
+}
+.peoplea{
+	margin-top: 200px;
+	
+}
+.roy{
+	width: 547px;
+	height: 500px;
+	background: linear-gradient(to top,#9DC586, #20544A);
+	float: left;
+	border-radius: 30px;
+	position: relative;
+}
+.deo{
+	width: 547px;
+	height: 500px;
+	background: linear-gradient(to top,#9DC586, #20544A);
+	float: left;
+	margin-left: 185px;
+	border-radius: 30px;
+	position: relative;
+}
+.lee{
+	width: 547px;
+	height: 500px;
+	background: linear-gradient(to top,#9DC586, #20544A);
+	float: right;
+	border-radius: 30px;
+	position: relative;
+}
+.royb {
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 120px;
+	color: white;
+}
+.deob {
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 120px;
+	color: white;
+}
+.leeb {
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 120px;
+	color: white;
+}
+.roy h2{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+.deo h2{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+.lee h2{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+	margin-top: 30px;
+}
+.roya {
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
+.deoa{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
+.leea{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 20px;
+	color: white;
+}
+/*
+.founder{
+	width: 300px;
+	height: 200px;
+	background-color: antiquewhite;
+	position: absolute;	
+	margin-top: -91px;
+	margin-left: 113px;
+	border-radius: 50%;
+}
+*/
+.imgj{
+	width: 200px;
+	height: 200px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/61c97d1a-1_102s02s00000000000001o.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: -118px;
+	margin-left: 172px;
+	border:  5px solid #9DC586;
+}
+.imgj:hover{
+	transform: rotateY(150deg);
+}
+.imgk{
+	width: 200px;
+	height: 200px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/3f3185f4-03_102s02s00000000000001o.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: -118px;
+	margin-left: 172px;
+	border:  5px solid #9DC586;
+}
+.imgk:hover{
+	transform: rotateY(150deg);
+}
+.imgl{
+	width: 200px;
+	height: 200px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/cr8svg-3_102s03002s02s00000401o.jpg");
+	background-size: cover;
+	border-radius: 50%;
+	position: absolute;
+	margin-top: -118px;
+	margin-left: 172px;
+	border:  5px solid #9DC586;
+}
+.imgl:hover{
+	transform: rotateY(150deg);
+	
+}
+.join{
+	width: 100%;
+	height: 600px;
+	background:linear-gradient(#98C382, #D4EFC6);
+}
+.joina{
+	width: 2000px;
+	height: 550px;
+/*	background-color: aqua;*/
+	margin: 0 auto;
+}
+.news h2{
+	font-size: 60px;
+	color:#20544A;
+	text-align: center;
+	padding:120px 90px 40px 90px;
+	font-family: raleway;
+}
+.news p{
+	font-size: 30px;
+	color: rgb(85, 85, 85);
+	text-align: center;
+	font-family: raleway;
+}
+.mailb{
+	width: 1000px;
+	height: 100px;
+/*	background-color: red;*/
+	margin: 0 auto;
+	margin-top: 80px;
+	position: relative;
+}
+.mail{
+	width: 800px;
+	height: 60px;
+	background-color: white;
+	color:rgb(85, 85, 85);
+/*	margin-top: 30px;*/
+	margin-left: 74px;
+	border-radius: 40px;
+	border: 4px solid #20544A;
+/*	position: relative;*/
+}
+::placeholder{
+/*	color:green;*/
+	padding: 30px;
+	font-size: 18px;
+}
+.maila{
+	width: 200px;
+	height: 65px;
+	background-color: white;
+	position: absolute;
+	right: 120px;
+	border-radius: 40px;
+	background: linear-gradient(to bottom,#9DC586, #20544A);
+	font-size: 30px;
+	color: white;
+	border: 4px solid #20544A;
+}
+.contact{
+	width: 100%;
+	height: 600px;
+	background: linear-gradient(to bottom,#D4EFC6, #20544A);
+}
+.contacta{
+	width: 2000px;
+	height: 1500px;
+/*	background-color: bisque;*/
+	margin: 0 auto;
+}
+.cont{
+	width: 300px;
+	height: 400px;
+/*	background-color: azure;*/
+	margin-left: 300px;
+	margin-top: 100px;
+	float: left;
+	border-right: 5px solid #20544A;
+}
+.cont ul li{
+	list-style: none;
+	font-size: 30px;
+	line-height: 80px;
+	font-family: raleway;
+	color: #20544A;
+	text-align: center;
+}
+/*
+.line{
+	height: 415px;
+	border-right: 5px solid #20544A;
+	
+}
+*/
+.conta{
+	width: 400px;
+	height: 400px;
+/*	background-color: burlywood;*/
+	float: left;
+	margin-left: 80px;
+	margin-top: 100px;
+	text-align: center;
+	border-right: 5px solid #20544A;
+}
+.conta h2{
+	font-size: 40px;
+	color:#20544A;
+	font-family: raleway;
+}
+.call{
+	width:200px;
+	height: 80px;
+/*	background-color: aqua;*/
+	margin: 20px 0px 20px 30px;
+}
+.icon{
+	width: 30px;
+	height: 30px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/7baf29c3-phone-ringing-1_100u00u000000000000028.png");
+	background-size: cover;
+	float: left;
+}
+.calla{
+	width: 200px;
+	height: 80px;
+/*	background-color: aquamarine;*/
+	margin: 20px 0px 20px 30px;
+}
+
+.icona{
+	width: 30px;
+	height: 30px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/6ab0e0bc-mail-1_100u00u000000000000028.png");
+	background-size: cover;
+	float: left;	
+}
+.callb{
+	width: 280px;
+	height: 80px;
+/*	background-color: aqua;*/
+	margin: 20px 0px 20px 30px;
+}
+.iconb{
+	width: 30px;
+	height: 30px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/4ec70fd6-placeholder-3_100u00u000000000000028.png");
+	background-size: cover;
+	float: left;
+	
+}
+.contb{
+	width: 400px;
+	height: 400px;
+/*	background-color: coral;*/
+	float: left;
+	margin-left: 80px;
+	margin-top: 100px;
+	border-right: 5px solid #20544A;
+}
+.fb{
+	width: 50px;
+	height: 50px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/d0df7cbf-fvector_1000000000000000000028.png");
+	background-size: cover;
+	margin-top: 40px;
+	margin-left: 165px;
+	
+}
+.tw{
+	width: 52px;
+	height: 52px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/d86cf5ae-tvector_1000000000000000000028.png");
+	background-size: cover;
+	margin-top: 20px;
+	margin-left: 165px;
+}
+.in{
+	width: 52px;
+	height: 52px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/00387043-lvector_1000000000000000000028.png");
+	background-size: cover;
+	margin-top: 20px;
+	margin-left: 165px;
+}
+.ina{
+	width: 52px;
+	height: 52px;
+	background: url("../image/Plantoz — Plant Shop Unbounce Template Preview - ThemeForest_files/299ac91b-pvector_1000000000000000000028.png");
+	background-size: cover;
+	margin-top: 20px;
+	margin-left: 165px;
+}
+.reser{
+	font-size: 30px;
+	text-align: center;
+	color: #20544A;
+}
+.num{
+	font-size: 20px;
+}
+.cont li:hover{
+	color: yellow;
+}
+.shopb a{
+	text-decoration: none;
+	color:rgba(238, 187, 77, 1); 
+}
